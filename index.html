@@ -5,34 +5,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pieter Thormählen</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<script defer src="js/web-animations.min.js"></script>
 	<script defer src="js/scripts.js"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"> 
+	<meta name="format-detection" content="telephone=no">
 </head>
 <body>
-	<header>
-		<nav>
-			<a href="#">nach Oben</a>
-			<a href="#meine_Arbeiten">meine Arbeiten</a>
-			<a href="#über_mich">über mich</a>
-		</nav>
-	</header>
+	<nav>
+		<a href="#">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+				<title>nach Oben</title>
+				<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+			</svg></a>
+		<a href="#meine_Arbeiten">meine Arbeiten</a>
+		<a href="#über_mich">über mich</a>
+	</nav>
 	<main>
 		<section id="Einleitung">
 			<article>
-				Hallo,<br>
-				ich bin <strong>Pieter Thormählen,</strong><br>
-				angehender <strong>Webentwickler.</strong>
-			</particle>
+				<span>Hallo,<br></span>
+				<span>ich bin <strong>Pieter Thormählen,</strong><br></span>
+				<span>angehender <strong>Webentwickler.</strong></span>
+			</article>
 		</section>
 		<section id="meine_Arbeiten">
 			<h2>meine Arbeiten</h2>
 			<article>
-				<h3>tobias patzak architekt</h3>
+				<h3>Webauftritt Architekturbüro</h3>
 				<img src="assets/screenshot-p1.jpg" alt="">
 				<div class="description">
-					Das Architekturbüro "tobias patzak architekt" wünschte einen neuen Webauftritt, damit potentzielle Auftraggeber sich über das Architekturbüro und bereits realisierte Bauprojekte informieren können.<br>
-					Um das zu erreichen, habe ich einen Webauftritt in schlichtem Design entwickelt auf dem Besucher die relevanten Informationen schnell finden können.
+					Das Architekturbüro "tobias patzak architekt" wünscht einen neuen Webauftritt, damit sich potentielle Auftraggeber über das Architekturbüro und die von ihm realisierten Bauprojekte informieren können.<br>
+					Um das zu erreichen, habe ich einen Webauftritt entwickelt, der die Projektfotos und Erläuterungstexte auf jedem Gerät im Design des Architekturbüros darstellt.
 					<br>
 					<a href="http://tobiaspatzak.de" target="_blank" rel="noopener noreferrer">
 						Ansehen
@@ -44,11 +48,12 @@
 				</div>
 			</article>
 			<article>
-				<h3>Rezeptmeister</h3>
+				<h3>Plattform für Rezepte</h3>
 				<img src="assets/screenshot-p2.jpg" alt="">
 				<div class="description">
 					Ich koche gerne, und das Rezepteregal ist überfüllt und durcheinander.<br>
-					Deshalb habe ich eine Webanwendung entwickelt, mit der man einfach eine digitale Rezeptesammlung anlegen und durchsuchen kann. Desweiteren kann man nach neuen Rezepten suchen wenn man mal Lust hat etwas Neues auszuprobieren.
+					Deshalb habe ich eine Webanwendung entwickelt, mit der man ganz einfach seine eigenen Rezepte editieren und in einer digitalen Sammlung anlegen und durchsuchen kann.<br>
+					Desweiteren kann man nach neuen Rezepten suchen, wenn man mal Lust hat, etwas Neues auszuprobieren.
 					<br>
 					<a href="https://pieterthormaehlen.github.io/Rezeptmeister/" target="_blank" rel="noopener noreferrer">
 						Ansehen
@@ -66,11 +71,11 @@
 				</div>
 			</article>
 			<article>
-				<h3>Country Explorer</h3>
+				<h3>Frontend Länderdatenbank</h3>
 				<img src="assets/screenshot-p3.jpg" alt="">
 				<div class="description">
 					Die Welt ist groß und hat so viele Länder, dass man sie gar nicht alle kennen kann.<br>
-					Beim Kennenlernen hilft "Country Explorer". Mit dieser Webanwendung kann man Informationen über jedes Land der Welt ganz einfach finden.
+					Beim Erforschen hilft "Country Explorer". Mit dieser Webanwendung kann man Informationen über jedes Land der Welt schnell und einfach von einem Datenserver abrufen.
 					<br>
 					<a href="https://pieterthormaehlen.github.io/Country-Explorer/" target="_blank" rel="noopener noreferrer">
 						Ansehen
@@ -92,9 +97,10 @@
 			<h2>über mich</h2>
 			<article>
 				<div class="text">
-					Schon als kleines Kind haben mich Computer fasziniert, ob ich meinem großen Bruder beim Spielen zugeschaut habe, oder wie mein Vater Windows 2000 Installiert hat.<br>
-					Und das hat sich auch nie geändert, Schularbeiten haben mir am besten gefallen, wenn ich sie am Computer machen konnte, in meiner Freizeit habe ich gerne daran gespielt, und mein Lieblingsfach war Informatik.<br>
-					Dort machte ich auch meine ersten Erfahrungen mit Webentwicklung und Programmieren, was mich sofort begeisterte. Deswegen mache ich jetzt auch beides zu meinem Job.
+					Schon als kleines Kind haben mich Computer fasziniert, ob ich meinem großen Bruder beim Spielen zugeschaut habe oder wie mein Vater Windows 2000 installiert hat.<br>
+					Und das hat sich auch nie geändert. Schularbeiten haben mir am besten gefallen, wenn ich sie am Computer machen konnte, in meiner Freizeit habe ich gerne daran gespielt und mein Lieblingsfach war Informatik.<br>
+					Dort machte ich auch meine ersten Erfahrungen mit Webentwicklung und Programmieren, was mich sofort begeisterte.<br>
+					Deswegen mache ich jetzt beides zu meinem Job.
 				</div>
 				<img src="assets/portrait.jpg" alt="">
 				<div class="address">
