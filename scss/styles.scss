@@ -275,13 +275,13 @@ section h2 {
 #über_mich article {
 	display: grid;
 	padding: 2.5rem 0;
-	grid-template-columns: 2fr 1fr 2rem 1rem;
+	grid-template-columns: 1fr 1.2fr 2rem 1rem;
 	grid-template-rows: min-content 1rem min-content 1rem min-content;
 
 	@media (min-width: 40rem) {
 		padding: 4rem 0;
-		grid-template-columns: minmax(0, max-content) 1rem 5rem 3rem;
-		grid-template-rows: min-content 5rem max-content 1rem min-content;
+		grid-template-columns: minmax(0, max-content) 1rem 8rem 5rem;
+		grid-template-rows: min-content 8rem max-content 1rem min-content;
 	}
 }
 
