@@ -1,3 +1,6 @@
+import '../scss/styles.scss'
+import 'web-animations-js'
+
 const nav = document.querySelector('nav')
 const content = document.querySelectorAll('main > *:not(#Einleitung)')
 const einleitung = document.querySelector('#Einleitung')

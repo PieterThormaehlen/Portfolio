@@ -1,0 +1,12 @@
+@use 'palette.scss';
+
+$background: palette.$grey-900;
+$background-highlight: palette.$black;
+$background-deemphasized: palette.$grey-800;
+$deemphasized: palette.$grey-500;
+$text: palette.$grey-300;
+$text-deemphasized: palette.$grey-500;
+// $accent: #2d64b6;
+$accent: #1b54aa;
+$text-accent: #1f69d8;
+$highlight: palette.$black;
